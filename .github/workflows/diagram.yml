@@ -13,3 +13,4 @@ jobs:
         uses: githubocto/repo-visualizer@main
         with:
           excluded_paths: ".github"
+          commit_message: "ci: update repository diagram"
