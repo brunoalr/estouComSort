@@ -6,6 +6,9 @@ on:
 jobs:
   bump-version:
     name: Bump version and release
+    permissions:
+      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
 
     steps:
